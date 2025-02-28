@@ -1,7 +1,7 @@
 ![Thumbnail](/ci/thumbnail.png)
 
 # godot-shrek-thriller
-Shrek performs the Thriller (1982) dance scene in the Godot Game Engine.
+Shrek performs the Thriller (1982) dance scene in the Godot game engine.
 
 <details>
 <summary>Export Game as Pack</summary>
