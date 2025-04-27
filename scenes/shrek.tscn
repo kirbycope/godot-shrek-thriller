@@ -1,7 +1,7 @@
 [gd_scene load_steps=28 format=4 uid="uid://c42b50v2soyld"]
 
 [ext_resource type="Texture2D" uid="uid://cmggs3bs33ypr" path="res://assets/shrek-thriller_0.png" id="1_bjnda"]
-[ext_resource type="Script" path="res://scenes/shrek.gd" id="1_rlyf6"]
+[ext_resource type="Script" uid="uid://cshmvydloffku" path="res://scenes/shrek.gd" id="1_rlyf6"]
 [ext_resource type="Texture2D" uid="uid://bvmp5yixyo0es" path="res://assets/shrek-thriller_1.png" id="2_mpnp3"]
 [ext_resource type="Texture2D" uid="uid://ds08ioadyoafv" path="res://assets/ShrekHead_Col.png" id="3_sq5yy"]
 [ext_resource type="Texture2D" uid="uid://b7np042lo867h" path="res://assets/ShrekHead_Nrm.png" id="4_t274j"]
@@ -3600,12 +3600,12 @@ tracks/52/keys = PackedFloat32Array(0, 1, 0.303272, 0.108881, -0.0417672, 0.9457
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_val4f"]
 _data = {
-"Thriller_idle": SubResource("Animation_iwsxr"),
-"Thriller_part_1": SubResource("Animation_ofegm"),
-"Thriller_part_2": SubResource("Animation_51ehe"),
-"Thriller_part_3": SubResource("Animation_bmgaa"),
-"Thriller_part_4": SubResource("Animation_8isic"),
-"mixamo_com": SubResource("Animation_0sxja")
+&"Thriller_idle": SubResource("Animation_iwsxr"),
+&"Thriller_part_1": SubResource("Animation_ofegm"),
+&"Thriller_part_2": SubResource("Animation_51ehe"),
+&"Thriller_part_3": SubResource("Animation_bmgaa"),
+&"Thriller_part_4": SubResource("Animation_8isic"),
+&"mixamo_com": SubResource("Animation_0sxja")
 }
 
 [node name="Shrek" type="Node3D"]
